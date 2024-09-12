@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: haroonf8/ultimate-cicd:1
+        image: haroonf8/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
